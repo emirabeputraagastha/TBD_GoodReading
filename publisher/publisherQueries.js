@@ -1,5 +1,3 @@
-// src/publisher/publisherQueries.js
-
 const getAllPublishers = 'SELECT * FROM public."Publisher"';
 const getPublisherById = 'SELECT * FROM public."Publisher" WHERE "PublisherID" = $1';
 const addPublisher = 'INSERT INTO public."Publisher" ("PublisherID", "PublisherName", "City", "Country", "Telephone", "YearFounded") VALUES ($1, $2, $3, $4, $5, $6)';
