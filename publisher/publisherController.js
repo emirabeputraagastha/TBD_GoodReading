@@ -1,5 +1,3 @@
-// src/publisher/publisherController.js
-
 const pool = require('../db');
 const queries = require('./publisherQueries');
 
