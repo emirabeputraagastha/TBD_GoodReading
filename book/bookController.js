@@ -1,5 +1,3 @@
-// src/book/bookController.js
-
 const pool = require('../db');
 const queries = require('./bookQueries');
 
