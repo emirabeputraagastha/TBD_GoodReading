@@ -1,5 +1,3 @@
-// src/book/bookQueries.js
-
 const getAllBooks = 'SELECT * FROM public."Book"';
 const getBookById = 'SELECT * FROM public."Book" WHERE "BookNumber" = $1';
 const addBook = 'INSERT INTO public."Book" ("BookNumber", "BookName", "PublicationYear", "Pages", "PublisherID") VALUES ($1, $2, $3, $4, $5)';
