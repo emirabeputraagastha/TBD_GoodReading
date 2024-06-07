@@ -1,5 +1,3 @@
-// src/wishlist/wishlistController.js
-
 const pool = require('../db');
 const queries = require('./wishlistQueries');
 
